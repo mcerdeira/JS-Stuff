@@ -1,7 +1,7 @@
-function MakeCounter(count){  
-	return function(){  	 
-     return count++;
-  }
+function MakeCounter(count) {
+    return function () {
+        return count++;
+    }
 }
 
 var counter = MakeCounter(5);
